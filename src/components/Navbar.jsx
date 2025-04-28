@@ -1,6 +1,11 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleDarkMode } from "../redux/darkModeSlice";
+import { toggleLanguage } from "../redux/languageSlice";
 
 const Navbar = () => {
+  const dispatch = useDispatch();
+  const darkMode = useSelector((state) => state.darkMode.darkMode);
   return (
     <nav className="max-w-5xl mx-auto w-full  py-4  flex justify-between items-center text-[#D9D8D5]">
       {/* Logo */}

@@ -7,7 +7,7 @@ const TaskInput = ({ inputValue, setInputValue, addTask, handleKeyDown }) => {
     <div className="border h-[10vh] flex items-center gap-3 px-3 w-full border-gray-300 bg-primary shadow-lg rounded-lg">
       <button
         onClick={addTask}
-        className="bg-blue-500 hover:bg-blue-600 transition text-white p-2 rounded-full shadow-md"
+        className="bg-secondary transition text-blue-600 p-2 rounded-full cursor-pointer shadow-md"
       >
         <IoIosAddCircleOutline size={34} />
       </button>
