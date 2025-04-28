@@ -2,16 +2,16 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="max-w-5xl mx-auto w-full  py-4  flex justify-between items-center">
+    <nav className="max-w-5xl mx-auto w-full  py-4  flex justify-between items-center text-[#D9D8D5]">
       {/* Logo */}
-      <div className="text-2xl font-bold text-gray-800">To-Do App</div>
+      <div className="text-2xl font-bold text-[#D9D8D5]">To-Do App</div>
 
       {/* Buttons */}
       <div className="flex items-center gap-4">
-        <button className="border border-gray-600 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-300 transition">
+        <button className="border border-[#D9D8D5]  px-4 py-2 rounded-md  transition">
           Language
         </button>
-        <button className="border border-gray-600 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-300 transition">
+        <button className="border border-[#D9D8D5]  px-4 py-2 rounded-md ">
           Dark Mode
         </button>
       </div>
