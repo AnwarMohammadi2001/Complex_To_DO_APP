@@ -15,7 +15,7 @@ const App = () => {
       return [];
     }
   });
-
+// State to manage input value, dark mode, and editing state
   const [inputValue, setInputValue] = useState("");
   const [darkMode, setDarkMode] = useState(false);
   const [editingTaskId, setEditingTaskId] = useState(null);
