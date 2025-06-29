@@ -13,10 +13,10 @@ const Navbar = () => {
 
       {/* Buttons */}
       <div className="flex items-center gap-4">
-        <button className="border border-[#D9D8D5]  px-4 py-2 rounded-md  transition">
+        <button className="border border-[#D9D8D5]  cursor-pointer px-4 py-2 rounded-md  transition">
           Language
         </button>
-        <button className="border border-[#D9D8D5]  px-4 py-2 rounded-md ">
+        <button className="border border-[#D9D8D5] cursor-pointer  px-4 py-2 rounded-md ">
           Dark Mode
         </button>
       </div>
