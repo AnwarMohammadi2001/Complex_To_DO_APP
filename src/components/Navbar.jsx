@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleDarkMode } from "../redux/darkModeSlice";
-import { toggleLanguage } from "../redux/languageSlice";
+// import { toggleDarkMode } from "../redux/darkModeSlice";
+// import { toggleLanguage } from "../redux/languageSlice";
 
 const Navbar = () => {
   const dispatch = useDispatch();
