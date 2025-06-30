@@ -90,6 +90,7 @@ const App = () => {
           addTask={addTask}
           handleKeyDown={handleKeyDown}
         />
+        
 
         {tasks.length > 0 && <ClearAllButton clearAllTasks={clearAllTasks} />}
       </div>
